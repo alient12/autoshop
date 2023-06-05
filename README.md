@@ -1,4 +1,6 @@
 # Autoshop
+In some cases are needed to combine a forground image and backround to improve dataset.
+In this case we had to combine smoke (forground) with CCTV images (background) but it had to be monitored by a human to make sure that the opacity, size and angle of the smoke is natural. This is a boring task to open images and save them each time. So I automated some parts of the job.
 This script will automate some works in photoshop:
 - import images
 - save output
