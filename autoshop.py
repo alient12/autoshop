@@ -3,7 +3,7 @@ import os
 import tkinter as tk
 from tkinter import ttk
 
-BASE_PATH = "C:/Users/ali entezari/Documents/iThermAI/Hacks-Tricks/photoshop/"  # BASE_PATH is an absolute path.
+BASE_PATH = os.getcwd() + "/"  # BASE_PATH is an absolute path.
 BACKGROUNDS_PATH = BASE_PATH + "backgrounds/"
 FOREGROUNDS_PATH = BASE_PATH + "foregrounds/"
 OUTPUTS_PATH = BASE_PATH + "outputs/"
